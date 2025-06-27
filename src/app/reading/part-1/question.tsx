@@ -17,17 +17,10 @@ interface QuestionProps {
 
 function QuestionItem({ question, order, id, onAnswerSubmit }: QuestionProps) {
   // Deterministic shuffle based on question ID to prevent hydration mismatch
-  const randomAnswers = useMemo(() => {
-    const answers = [...question.answers];
-    // Use question ID as seed for deterministic shuffle
-    const seed = id;
-    for (let i = answers.length - 1; i > 0; i--) {
-      const j = Math.floor(((seed * (i + 1)) % 1000) / 1000 * (i + 1));
-      [answers[i], answers[j]] = [answers[j], answers[i]];
-    }
-    return answers;
-  }, [question.answers, id]);
-  
+  const randomAnswers = useMemo(
+    () => question.answers.sort(() => Math.random() - 0.5),
+    [question, id]
+  );
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
 
