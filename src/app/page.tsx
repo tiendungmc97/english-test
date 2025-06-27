@@ -9,6 +9,12 @@ export default function Home() {
       </div>
       <div className="flex flex-col divide-y divide-gray-200">
         <Link
+          href="/reading/part-1"
+          className="py-3 hover:bg-gray-50 transition-colors text-blue-600 font-medium text-center"
+        >
+          Part 1
+        </Link>
+        <Link
           href="/reading/part-2"
           className="py-3 hover:bg-gray-50 transition-colors text-blue-600 font-medium text-center"
         >

@@ -130,9 +130,8 @@ function DragDropComponent({ initialAnswers, title, index }: DragDropProps) {
 const DragDrop = dynamic(() => Promise.resolve(DragDropComponent), {
   ssr: false,
   loading: () => (
-    <div className="max-w-md mx-auto">
-      <h2 className="text-xl font-semibold mb-4">Loading...</h2>
-      <div className="space-y-2">
+    <div className="max-w-md mx-auto bg-white ">
+      <div className="space-y-2 h-[320px]">
         {[...Array(4)].map((_, idx) => (
           <div
             key={idx}
