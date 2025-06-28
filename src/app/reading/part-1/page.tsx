@@ -24,9 +24,8 @@ interface QuizResult {
   correctAnswer: string;
 }
 
+const data = dataReadingPart1;
 function Part1() {
-  const data = dataReadingPart1;
-
   const [quizResults, setQuizResults] = useState<QuizResult[]>([]);
   const [showResults, setShowResults] = useState(false);
 
@@ -84,7 +83,7 @@ function Part1() {
         <Drawer
           title={
             <span className="text-2xl font-bold text-gray-800">
-              Part 1 - Reading Test
+              Part 1 - Reading
             </span>
           }
           placement="right"

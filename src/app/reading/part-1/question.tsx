@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { Question } from "./page";
+import { useEffect, useMemo, useState } from "react";
+import type { Answer, Question } from "./page";
 
 interface QuestionProps {
   order: number;
@@ -16,11 +16,11 @@ interface QuestionProps {
 }
 
 function QuestionItem({ question, order, id, onAnswerSubmit }: QuestionProps) {
-  // Deterministic shuffle based on question ID to prevent hydration mismatch
-  const randomAnswers = useMemo(
-    () => question.answers.sort(() => Math.random() - 0.5),
-    [question, id]
-  );
+  const [randomAnswers, setRandomAnswers] = useState<Answer[]>([]);
+  useEffect(() => {
+    const randomAnswers = question.answers.sort(() => Math.random() - 0.5);
+    setRandomAnswers(randomAnswers);
+  }, [id]);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
 
