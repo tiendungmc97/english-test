@@ -37,7 +37,7 @@ function QuestionItem({ question, order, id, onAnswerSubmit }: QuestionProps) {
       id,
       selectedAnswerObj.isCorrect,
       selectedAnswerObj.content,
-      correctAnswerObj?.content || ""
+      correctAnswerObj?.content || " "
     );
   };
 
