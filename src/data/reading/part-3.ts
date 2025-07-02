@@ -589,4 +589,163 @@ export const data = [
       },
     ],
   },
+  {
+    title: "Visit an island",
+    questions: [
+      {
+        id: 1,
+        question: "I like traveling to the beach. I think I have to walk quite a distance from the hotel to the beach so I think I have to bring boots. However, when I opened the suitcase, I didn't see any boots. But I still completed the trip and visited many beautiful beaches. One great thing is that the beaches are in remote areas, so there are very few tourists. However, it also makes finding food and drinks more difficult.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question: "As an architect, I have always been interested in how buildings are constructed. So when I travel, I never spend time lying on the beach or buying souvenirs. I will go around the area to see the architecture of the houses. I chose to go around by taxi, it was great. However, it was a bit more expensive because I traveled alone and had no one to share the costs. But for me, this was still a great experience because I got to see many old houses.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question: "The sharp bends of the island made me abandon the idea of renting a car, because it was very dangerous. I decided to take the bus. It was also much cheaper. However, the bus routes are quite few and there are many time constraints. We toured the neighborhoods on foot. I loved this experience because I could see many beautiful sights.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question: "There's a lot of food here, and I spend most of my time eating. I can't recommend any of the dishes because they are all very impressive. If you want to cook for yourself, you will have to take the bus to the market. Don't forget to visit the street market because they sell a lot of local products. I have a lot of good bargains there.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who forgot to bring something?",
+        match: "A",
+      },
+      {
+        title: "Who liked to be alone",
+        match: "A",
+      },
+      {
+        title: "Who spent a lot of money on transport?",
+        match: "B",
+      },
+      {
+        title: "Who thought public transport could be improved?",
+        match: "C",
+      },
+      {
+        title: "Who liked to walk",
+        match: "C",
+      },
+      {
+        title: "Who liked buying things on the island?",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Using the Internet",
+    questions: [
+      {
+        id: 1,
+        question: "Jose: I moved to a new country, and it is challenging to stay in touch with relatives, but thanks to technology, I can now easily contact my family. I rely on technology a lot for this reason, and I believe many people nowadays depend on it too much. I also use it to handle issues with staff. Technology has made staying connected much more convenient and accessible for all of us.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question: "Marisol: I work in finance, and it is normal for me to use technology to update international banking information and AI in stock management. However, looking at screens before bed affects my sleep, so I try not to surf too long. I stop using my phone and computer before midnight to avoid eye strain and be sure to ensure a good night's rest.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question: "Bao: Our grandma called my younger sister a lot. My sister called mom even inside the house! They don't meet in person anymore, and that really makes me sad. We only text with our friends, and I think that's not how we should treat people. I don't like this trend. My friends always send messages even when I sit beside them, which puts pressure on me to be just like them. I want to go back to writing letters or talking better.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question: "Lina: I am in the education department, which is not traditionally connected to technology, but students are now expected to submit homework online. I think it's a good trend because they learn how to use basic tools early. Even though not all students know how to use technology well, I think some of my teachers and even parents don't like them being exposed to technology. I think it would be better if we showed them the benefits for our development.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who uses technology to communicate with family?",
+        match: "A",
+      },
+      {
+        title: "Who believes that people depend too much on technology?",
+        match: "A",
+      },
+      {
+        title: "Who uses technology for work purposes?",
+        match: "B",
+      },
+      {
+        title: "Who uses technology for entertainment?",
+        match: "C",
+      },
+
+      {
+        title: "Who buys the latest technology products?",
+        match: "C",
+      },
+      {
+        title: "Who thinks children shouldn't use technology?",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Holiday",
+    questions: [
+      {
+        id: 1,
+        question: "When I travel somewhere, I often ask for bus routes to famous tourist destinations so that I can get to those places as quickly as possible and avoid wasting time going around. Famous tourist destinations are the places I want to explore the most when traveling somewhere. I don't understand why many people just like to sit still at the beach when traveling. I find that uninteresting and time-consuming.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question: "My family and I often plan to travel every time we have a vacation. If the weather is nice, then our plans go ahead as usual. If not, we will postpone that vacation. For my family, light wind and warm sunlight are important when we go out. A few of my friends invited me to go climbing, but I'm afraid of heights, so I refused them. However, in the future, I really want to try mountain climbing once.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question: "Next month's trip will be the first time I travel to another country. Normally I only travel to famous local places or in my country. These places are beautiful, but I'm so excited to travel to a foreign place once in my life.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question: "Last year, I went on a mountain climbing trip with my friends. It was the most horrible trip I have ever experienced. About three days after that trip, I had a strong muscle pain and couldn't walk properly. Since then, I haven't exercised and also enjoy health a lot. I do not plan to join another long-distance trip or far away places. Instead, I want to lie on a comfortable sofa and watch my favorite TV show during my holidays.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who thinks going to the beach is boring?",
+        match: "A",
+      },
+      {
+        title: "Who likes seeing tourist attractions?",
+        match: "A",
+      },
+      {
+        title: "Who thinks holiday requires good weather?",
+        match: "B",
+      },
+      {
+        title: "Who likes to go on a mountaineering holiday?",
+        match: "B",
+      },
+      {
+        title: "Who has never been abroad?",
+        match: "C",
+      },
+      {
+        title: "Who prefers staying at home on holidays?",
+        match: "D",
+      },
+      {
+        title: "Who likes going walking?",
+        match: "D",
+      },
+    ],
+  },
+
 ];
