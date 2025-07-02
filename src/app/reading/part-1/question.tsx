@@ -20,7 +20,7 @@ function QuestionItem({ question, order, id, onAnswerSubmit }: QuestionProps) {
   useEffect(() => {
     const randomAnswers = question.answers.sort(() => Math.random() - 0.5);
     setRandomAnswers(randomAnswers);
-  }, [id]);
+  }, [question.answers]);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
 

@@ -117,4 +117,476 @@ export const data = [
       },
     ],
   },
+  {
+    title: "Reading Books",
+    questions: [
+      {
+        id: 1,
+        question:
+          "My wife often complains about not having time to read, and I say we have to make our own time. So, I often calculate my free time on my phone, so I can know in advance what I should bring as a book to read on the train. My wife often laughs at me for doing so, but I don't mind as long as I can finish reading so many books.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I used to struggle very much to finish reading a book that we were expected to read. However, now that I search for my own pleasure, I don't mind too much. I usually don't limit myself to reading one at a time. There are so many titles I can choose from that get me excited. I have a list of books that I want to read in the future.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "I often keep a book on the bedside table to read before going to bed. The problem is that I get tired after reading one page or so and fall asleep. So, I've been reading that one book for half a year and have only read twelve chapters. However, when I read factual books, I find that very interesting and they keep me awake for hours.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "My job requires reading a lot of books. These books include a lot of facts and figures, and they are very boring. When I have free time, I usually want to read light books, like mystery novels or comedies. I often read on the train to work. I have a young child, so when I come home I almost don't have time to read. Therefore, I have to read books when travelling by train. So, a book can last me 1 week.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who reads more than another family member",
+        match: "A",
+      },
+      {
+        title: "Who plans their reading schedule",
+        match: "A",
+      },
+      {
+        title: "Who reads many books at once",
+        match: "B",
+      },
+      {
+        title: "Who wants to read a lot of books",
+        match: "B",
+      },
+      {
+        title: "Who is having difficulty in fishing a book",
+        match: "C",
+      },
+      {
+        title: "Who thinks that factual books are boring",
+        match: "D",
+      },
+      {
+        title: "Who has limited time to read books",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Sports/Doing exercise",
+    questions: [
+      {
+        id: 1,
+        question:
+          "Exercising with friends is a fantastic idea; don't you think? It adds a fun element to the workout routine. It's important to fuel our bodies properly, though. After a good workout, I always make sure I have a nutritious meal to replenish energy and support muscle recovery.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "Establishing a consistent workout routine has really helped me stay on track with my fitness goals. It's amazing how much more I can accomplish when I have a structured plan in place. Plus, it keeps me accountable and ensures I make time for physical activity every day.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "Age is just a number when it comes to exercise. Whether you're young or old, staying active is crucial for maintaining overall health and vitality. While competitions can be motivating for some, they're not necessarily suitable for everyone. It's important to find activities that are enjoyable and sustainable for each individual.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "Experiencing pain during exercise isn't necessary, and it's a sign that something may be wrong. It's important to listen to our bodies and seek expert advice when needed, whether it's from a trainer, physical therapist, or medical professional. Taking care of ourselves properly ensures we can continue to enjoy physical activity without risking injury.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who thinks working out with friends is a good idea",
+        match: "A",
+      },
+      {
+        title: "Who thinks a proper meal is important",
+        match: "A",
+      },
+      {
+        title: "Who thinks a routine can help to do more sport",
+        match: "B",
+      },
+      {
+        title: "Who thinks exercise is for both the young and the elderly",
+        match: "C",
+      },
+      {
+        title: "Who thinks competitions are not useful for everyone",
+        match: "C",
+      },
+      {
+        title: "Who thinks experience pain is not necessary",
+        match: "D",
+      },
+      {
+        title: "Who thinks at times, we seek expert advice",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Watching TV",
+    questions: [
+      {
+        id: 1,
+        question:
+          "I know I have to spend time studying, but there are so many great TV shows, especially horror shows. Once you watch one, you will be glad to it and can't stop watching. Besides, these TV shows often last for many weeks.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I often spend time watching the news on TV in the evening when I'm free. In the past, I often watched the soccer team I liked on TV, but they often lost, so I gave up watching them. Nowadays there are too many reality TV shows being shown on TV. Every time I see these shows, I turn them off and do more interesting things.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "I wasn't good when I was in school because I often spent time watching cartoons on TV. However, I now watch nature documentaries and TV shows about science, history, and business. This helps me expand my knowledge a lot compared to when I was in school.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "My husband usually schedules TV viewing for the weekend. He usually watches football or documentaries. On the opposite, I just turn on the TV, and it doesn't matter what program is on because I just need to relax. Here I have a chance to update news about movies—not just movies but pop songs. I also find reality TV shows very entertaining.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who watches TV instead of studying",
+        match: "A",
+      },
+      {
+        title: "Who likes TV programs which continue over several weeks",
+        match: "A",
+      },
+      {
+        title: "Who avoids watching reality TV programs",
+        match: "B",
+      },
+      {
+        title: "Who losts interest in watching football on TV",
+        match: "B",
+      },
+      {
+        title: "Who gets a lot of knowledge by watching TV",
+        match: "C",
+      },
+      {
+        title: "Who isn't a very selective viewer",
+        match: "D",
+      },
+      {
+        title: "Who keeps up to date on cinema and music",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Eating and cooking",
+    questions: [
+      {
+        id: 1,
+        question:
+          "When I was a kid, I was often given ready-made or junk food when I was at home, although I don't want to blame my parents. Since then, I try to eat at restaurants as much as possible. The food at the restaurant is not very diverse, but for me, that is not a problem. What matters to me when going out to eat is who you go with. I often eat with colleagues or close friends when I get off work, it's very fun.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I used to be often to go to the most fashionable and luxurious restaurants to eat. However, now, I'm back to being a student, and my finances won't stretch that far. Therefore, I often cook for myself and watch recipes and cooking methods on the internet. That helps me to be able to focus on my research without worrying about finances.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "Going to a restaurant is for the social atmosphere, and I am not bothered to eat alone either. What's important to me is the variety of dishes. Therefore, I eat at as many places as possible, even though they can be a bit pricey. That's why I joined the cooking club, where I can learn many new recipes and also meet new friends.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "I don't understand why so many people want to find many different recipes for one dish. I know clearly what I like and I eat exactly that food. My dad is a good cook, he knows what ingredients I can't eat, which obviously are a lot. I love being home and eating with my family.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who likes to eat with friends",
+        match: "A",
+      },
+      {
+        title: "Who prefers to eat alone",
+        match: "B",
+      },
+      {
+        title: "Who needs to save money",
+        match: "B",
+      },
+      {
+        title: "Who likes to eat a wide range of dishes",
+        match: "C",
+      },
+      {
+        title: "Who takes a cookery course",
+        match: "C",
+      },
+      {
+        title: "Who only wants to eat a few range of food",
+        match: "D",
+      },
+      {
+        title: "Who likes home cooked food",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Volunteering to clean a local park",
+    questions: [
+      {
+        id: 1,
+        question:
+          "I feel very lucky to have this park here. My family and I often go to the park because of the natural landscape. It's different from the city, which is very busy and full of dust. Unfortunately, I am away this weekend, so I cannot help with the cleaning. However, I know my brother and his friends will be very interested in this cleanup, so I will ask them if they can help.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I'm a very busy person, and I have to spend this weekend with my family so I only have the weekend as free time. I think young people who don't have families should help. Besides, students and school kids have days off on weekends. I think this volunteering will be very helpful for students' future careers.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "I think this volunteering is a good idea, but it doesn't have a long-term vision. When volunteers clean up the park, it will be clean, but it will become busy again after about a month when tourist season arrives. I think we should clean this park regularly, about once a month. Surrounding areas, such as the lake and local forest, should also be cleaned up. We should also have signs telling visitors to clean up their trash. I am very upset when I see a lot of trash on both sides of the road.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "My family and I often spend time at my park. My children love going to the park and they find the park a very interesting place to visit. My son has a dream of becoming a biologist so I think cleaning up this park will be very useful for my son. I think we should pique children's interest in cleaning. They will be more willing to volunteer and help others.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who thinks the park is a beautiful place to relax",
+        match: "A",
+      },
+      {
+        title: "Who asks for others to help",
+        match: "A",
+      },
+      {
+        title: "Who thinks volunteering will help with future employment",
+        match: "B",
+      },
+      {
+        title: "Who can't clean the park because of their busy work",
+        match: "B",
+      },
+      {
+        title: "Who thinks the cleaning needs to be done regularly",
+        match: "C",
+      },
+      {
+        title: "Who thinks that local areas need cleaning",
+        match: "C",
+      },
+      {
+        title: "Who thinks volunteering is important for students",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Art",
+    questions: [
+      {
+        id: 1,
+        question:
+          "I know a little about famous painters and their works. But I don't like going to art exhibitions unless my friend invites me. I like extracurricular (ngoài khóa) activities more, painting exhibitions seem too quiet to me. I like to draw, and I have been drawing ever since I can remember. My forte (khả năng) is drawing in animals, especially big and ferocious (hung ác) animals.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I find going to see paintings similar to reading books. You must look and read before discussing. When I go to exhibitions with my friends, they often talk before seeing the painting, and what they talk about isn't even about the painting, that annoys me.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "I find polite art very fascinating. I often go to talks about the arts and I have gone to many foreign art exhibitions and artists' houses. It's great to see their works and where they worked.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "My parents often took me to see art exhibitions when I was a child, and I think that habit remains. Currently, I often take my children to the exhibition, which is a lovely activity for me. I often ask my children to do other activities while looking at pictures, for example, think of a story for that picture so they don't get bored.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who has some artistic skills",
+        match: "A",
+      },
+      {
+        title: "Who thinks seeing exhibitions is a boring activity",
+        match: "A",
+      },
+      {
+        title: "Who prefers seeing exhibitions by themselves",
+        match: "B",
+      },
+      {
+        title: "Who thinks visitors should focus on the art",
+        match: "B",
+      },
+      {
+        title: "Who has a good knowledge of art",
+        match: "C",
+      },
+      {
+        title: "Who prefers to go to art exhibitions with other people",
+        match: "D",
+      },
+      {
+        title: "Who has been going to art exhibitions all their life",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Watching a film/movie",
+    questions: [
+      {
+        id: 1,
+        question:
+          "This is the second time I've watched this movie but it still makes me feel restless and anxious. Every time there are sudden scary scenes, my heart feels like it's going to jump out. I think the director and actors made this movie very successful in scaring the audience.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I feel like going to the cinema is a waste of money so I watched this movie at home with my family, and we had a very good time together. One thing about this movie that makes me excited is the plot of the movie. The film progresses very logically, the story lines are cleverly and skillfully arranged to express the character's psychology in the most complete way. That's one thing I like most about the movie.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "It was a holiday weekend and my college friends and I had planned to go see this movie at the cinema. We had a great time together watching that horror movie. However, I feel that this movie is not as scary as rumored. When I finished watching, I didn't feel any impression or fear at all.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "I read the book for the film, and to be fair, the movie wasn't as good as the book. If you want to understand more about this movie, you should read its book before you watch the movie. For me, the length of this movie is terrible; the movie lasts over 3 hours, while only half the time is needed for all that content.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who saw the film previously",
+        match: "A",
+      },
+      {
+        title: "Who found the film scary",
+        match: "A",
+      },
+      {
+        title: "Who saw the film at home",
+        match: "B",
+      },
+      {
+        title: "Who enjoyed the story of the film",
+        match: "B",
+      },
+      {
+        title: "Who saw the movie with friends",
+        match: "C",
+      },
+      {
+        title: "Who thought the film was too long",
+        match: "D",
+      },
+      {
+        title: "Who read the book of the film",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Plan for a new station",
+    questions: [
+      {
+        id: 1,
+        question:
+          "I see too many people who do not arrange a good time to travel to work; they often arrive at work late. I always think in advance about what time I will get to work tomorrow and what means of transport I will use.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "Buses are often full of people, especially during rush hour. This makes me very uncomfortable when I have to travel to work by bus. The public transportation improvement plan proposed by the city is very reasonable and it will improve the above situation a lot.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "In my opinions, the bus is very clean and comfortable to travel, I find it has a lot of space for everyone, and the bus system is also very large. Therefore, I think improving the public transport system is unnecessary, while the old system is still good.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "Building a new public transport system will be very costly, and we all know it's at the expense of the resident. I think we should use that money for something more beneficial, which is building more hospitals. Hospitals in this living area are very few.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who thinks people should plan their journeys better",
+        match: "A",
+      },
+      {
+        title: "Who thinks the bus is too busy",
+        match: "B",
+      },
+      {
+        title: "Who thinks the new station will improve train travel",
+        match: "B",
+      },
+      {
+        title: "Who thinks the public transport doesn't need to improve",
+        match: "C",
+      },
+      {
+        title: "Who thinks there is a good bus service",
+        match: "C",
+      },
+      {
+        title: "Who thinks better medical facilities are needed",
+        match: "D",
+      },
+      {
+        title: "Who thinks the station will cost too much to build",
+        match: "D",
+      },
+    ],
+  },
 ];
