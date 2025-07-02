@@ -117,4 +117,123 @@ export const data = [
       },
     ],
   },
+  {
+    title: "Reading Books",
+    questions: [
+      {
+        id: 1,
+        question:
+          "My wife often complains about not having time to read, and I say we have to make our own time. So, I often calculate my free time on my phone, so I can know in advance what I should bring as a book to read on the train. My wife often laughs at me for doing so, but I don't mind as long as I can finish reading so many books.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "I used to struggle very much to finish reading a book that we were expected to read. However, now that I search for my own pleasure, I don't mind too much. I usually don't limit myself to reading one at a time. There are so many titles I can choose from that get me excited. I have a list of books that I want to read in the future.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "I often keep a book on the bedside table to read before going to bed. The problem is that I get tired after reading one page or so and fall asleep. So, I've been reading that one book for half a year and have only read twelve chapters. However, when I read factual books, I find that very interesting and they keep me awake for hours.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "My job requires reading a lot of books. These books include a lot of facts and figures, and they are very boring. When I have free time, I usually want to read light books, like mystery novels or comedies. I often read on the train to work. I have a young child, so when I come home I almost don't have time to read. Therefore, I have to read books when travelling by train. So, a book can last me 1 week.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who reads more than another family member",
+        match: "A",
+      },
+      {
+        title: "Who plans their reading schedule",
+        match: "A",
+      },
+      {
+        title: "Who reads many books at once",
+        match: "B",
+      },
+      {
+        title: "Who wants to read a lot of books",
+        match: "B",
+      },
+      {
+        title: "Who is having difficulty in fishing a book",
+        match: "C",
+      },
+      {
+        title: "Who thinks that factual books are boring",
+        match: "D",
+      },
+      {
+        title: "Who has limited time to read books",
+        match: "D",
+      },
+    ],
+  },
+  {
+    title: "Sports/Doing exercise",
+    questions: [
+      {
+        id: 1,
+        question:
+          "Exercising with friends is a fantastic idea; don't you think? It adds a fun element to the workout routine. It's important to fuel our bodies properly, though. After a good workout, I always make sure I have a nutritious meal to replenish energy and support muscle recovery.",
+        order: "A",
+      },
+      {
+        id: 2,
+        question:
+          "Establishing a consistent workout routine has really helped me stay on track with my fitness goals. It's amazing how much more I can accomplish when I have a structured plan in place. Plus, it keeps me accountable and ensures I make time for physical activity every day.",
+        order: "B",
+      },
+      {
+        id: 3,
+        question:
+          "Age is just a number when it comes to exercise. Whether you're young or old, staying active is crucial for maintaining overall health and vitality. While competitions can be motivating for some, they're not necessarily suitable for everyone. It's important to find activities that are enjoyable and sustainable for each individual.",
+        order: "C",
+      },
+      {
+        id: 4,
+        question:
+          "Experiencing pain during exercise isn't necessary, and it's a sign that something may be wrong. It's important to listen to our bodies and seek expert advice when needed, whether it's from a trainer, physical therapist, or medical professional. Taking care of ourselves properly ensures we can continue to enjoy physical activity without risking injury.",
+        order: "D",
+      },
+    ],
+    listAnswers: [
+      {
+        title: "Who thinks working out with friends is a good idea",
+        match: "A",
+      },
+      {
+        title: "Who thinks a proper meal is important",
+        match: "A",
+      },
+      {
+        title: "Who thinks a routine can help to do more sport",
+        match: "B",
+      },
+      {
+        title: "Who thinks exercise is for both the young and the elderly",
+        match: "C",
+      },
+      {
+        title:
+          "Who thinks competitions are not useful for everyone",
+        match: "C",
+      },
+      {
+        title: "Who thinks experience pain is not necessary",
+        match: "D",
+      },
+      {
+        title: "Who thinks at times, we seek expert advice",
+        match: "D",
+      },
+    ],
+  },
 ];
