@@ -20,6 +20,12 @@ export default function Home() {
         >
           Part 2
         </Link>
+        <Link
+          href="/reading/part-3"
+          className="py-3 hover:bg-gray-50 transition-colors text-blue-600 font-medium text-center"
+        >
+          Part 3
+        </Link>
       </div>
     </div>
   );
